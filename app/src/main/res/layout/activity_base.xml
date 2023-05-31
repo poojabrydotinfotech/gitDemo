@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaseActivity"
+    android:orientation="horizontal">
+
+
+
+
+        <EditText
+            android:id="@+id/edit_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:hint="note"
+            android:inputType="textAutoComplete"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constrainedWidth="true"
+            android:background="@color/teal_700"
+            android:text="@string/button_save"
+            android:textColor="@color/black"
+            android:paddingTop="15dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="@id/edit_word"
+            app:layout_constraintStart_toStartOf="@id/edit_word"
+            app:layout_constraintTop_toBottomOf="@id/edit_word"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,10 +13,11 @@
         android:theme="@style/Theme.TestGitDemo"
         tools:targetApi="31">
         <activity
+            android:name=".BaseActivity"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.TestGitDemo">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

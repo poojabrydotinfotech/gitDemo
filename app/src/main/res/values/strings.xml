@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TestGitDemo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_save">save\n</string>
+    <string name="add_word">add Word</string>
+    <string name="empty_not_saved">Empty not saved\n\n</string>
 </resources>
